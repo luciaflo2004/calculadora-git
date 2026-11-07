@@ -20,3 +20,14 @@ def restar(a, b):
 
 if __name__ == "__main__":
     presentacion()
+
+# Multiplica dos números
+def multiplicar(a, b):
+    return a * b
+
+
+# Divide dos números y evita la división entre cero
+def dividir(a, b):
+    if b == 0:
+        return "Error: no es posible dividir entre cero"
+    return a / b
